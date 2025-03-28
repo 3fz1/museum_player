@@ -1,0 +1,20 @@
+{
+  "routerMap": [
+    {
+      "name": "pageChat",
+      "pageSourceFile": "src/main/ets/pages/Chat.ets",
+      "buildFunction": "PageChatBuilder",
+      "data": {
+        "description": "this is pageOne"
+      }
+    },
+    {
+      "name": "pageInfo",
+      "pageSourceFile": "src/main/ets/pages/DisplayInfo.ets",
+      "buildFunction": "PageInfoBuilder",
+      "data": {
+        "description": "this is pageInfo"
+      }
+    }
+  ]
+}

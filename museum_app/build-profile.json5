@@ -1,0 +1,55 @@
+{
+  "app": {
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.0(12)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug"
+      },
+      {
+        "name": "release"
+      }
+    ],
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\ITO\\.ohos\\config\\default_test_museum_525vnTVw9yV72dImFhJlTYnPGdhOf19mM-sijJvK0DA=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B6EAD66B7ECC34E5B69D5F5150F723CC517FDC3EED3291F4C05C0540C8B3971DEE900081C5160FE",
+          "profile": "C:\\Users\\ITO\\.ohos\\config\\default_test_museum_525vnTVw9yV72dImFhJlTYnPGdhOf19mM-sijJvK0DA=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\ITO\\.ohos\\config\\default_test_museum_525vnTVw9yV72dImFhJlTYnPGdhOf19mM-sijJvK0DA=.p12",
+          "storePassword": "0000001BB0F997AC963EF2E3B1945D4AD40A872930497DC10F4FB129C2C547DF006BB37BE26E3C14D57935"
+        }
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

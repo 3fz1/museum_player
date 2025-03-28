@@ -1,0 +1,17 @@
+{
+  "devices": {
+    "general": [
+      "phone",
+      "tablet",
+      "2in1"
+    ]
+  },
+  "development": {
+    "addedSysCaps": [
+      "SystemCapability.Communication.NFC.Core",
+      "SystemCapability.Communication.NFC.CardEmulation",
+      "SystemCapability.Communication.NFC.Tag",
+      "SystemCapability.Communication.NetStack"
+    ]
+  }
+}
